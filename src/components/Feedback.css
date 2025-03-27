@@ -1,0 +1,99 @@
+.feedback-page * {
+  box-sizing: border-box;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgb(241, 238, 238);
+  background-color: teal;
+  height: 50px;
+  width: 225px;
+  border-radius: 30px;
+  border: 0px;
+  box-shadow: 5px 5px 10px gray;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: rgb(2, 94, 94);
+}
+.feedback-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.feedback-page .feedback-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-page .feedback-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.feedback-page .feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-page .feedback-form textarea {
+  resize: vertical;
+  min-height: 100px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.feedback-page .feedback-form button {
+  margin-left: 10px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-page .feedback-form button:hover {
+  background-color: #218838;
+}
+
+.feedback-page .feedback-messages {
+  margin-top: 30px;
+}
+
+.feedback-page .feedback-messages .message {
+  background: #f8f9fa;
+  border-left: 4px solid #28a745;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.feedback-page .feedback-messages .message strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.feedback-page .feedback-messages .message em {
+  color: #6c757d;
+  font-size: 0.9em;
+}

@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 60px;
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 575px;
+  width: 500px;
+  background-color: #f4f4f4;
+}
+
+.inputboxes {
+  margin-left: -92px;
+}
+
+.change {
+  margin-top: -20px;
+  margin-left: -170px;
+}
+button {
+  margin-left: -92px;
+  margin-top: 30px;
+  color: rgb(241, 238, 238);
+  background-color: teal;
+  height: 50px;
+  width: 225px;
+  border-radius: 30px;
+  border: 0px;
+  box-shadow: 5px 5px 10px gray;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: rgb(2, 94, 94);
+}

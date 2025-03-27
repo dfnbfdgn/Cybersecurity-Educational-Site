@@ -1,0 +1,43 @@
+.page-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page1-text {
+  color: white;
+  font-size: 100px;
+  margin-top: -400px;
+}
+.page1-button {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  padding: 17px 30px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.page1-button:hover {
+  background-color: grey;
+}
