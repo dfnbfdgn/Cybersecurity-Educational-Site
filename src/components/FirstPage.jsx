@@ -14,7 +14,7 @@ function FirstPage({ setIsLoggedIn }) {
     <div className="page-container">
       <LogoutButton setIsLoggedIn={setIsLoggedIn} />
       <video src="/videos/background-video.mp4" autoPlay loop muted />
-      <p className="page1-text">CS4417 Website</p>
+      <p className="page1-text">Cybersecurity Website</p>
       <button className="page1-button" onClick={handleClick}>
         FEEDBACK
       </button>
